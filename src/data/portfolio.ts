@@ -388,4 +388,15 @@ export const projects: Project[] = [
     watchUrl:
       'https://www.linkedin.com/feed/update/urn:li:activity:7505144728762437632/',
   },
+  {
+  title: 'Rainbow Catch – Arcade Browser Game',
+  category: 'Game Development',
+  filterCategory: 'Web',
+  description:
+    'A colorful arcade-style browser game where players catch falling gems, stars and coins, build combos, collect power-ups and level up. Fully responsive with touch controls and a saved best score, built with pure HTML, CSS and JavaScript (Canvas).',
+  tech: ['HTML5', 'CSS3', 'JavaScript', 'Canvas API'],
+  image: projectPlaceholder('Rainbow Catch – Arcade Browser Game', 'Game Development', '#ff78b9'),
+  githubUrl: 'https://github.com/heshanthiprasangika10-debug/rainbow-catch-game',
+  liveUrl: 'https://rainbow-catch-game.vercel.app/',
+},
 ]
